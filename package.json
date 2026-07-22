@@ -2,16 +2,30 @@
   "name": "rails_ajax_task",
   "private": true,
   "dependencies": {
-    "@babel/plugin-proposal-private-methods": "^7.18.6",
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "@rails/actioncable": "^6.0.0",
-    "@rails/activestorage": "^6.0.0",
-    "@rails/ujs": "^6.0.0",
-    "@rails/webpacker": "5.4.4",
-    "turbolinks": "^5.2.0"
+    "@babel/core": "^7.17.9",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/runtime": "^7.17.9",
+    "@rails/actioncable": "^8.1.300",
+    "@rails/activestorage": "^8.1.300",
+    "@rails/ujs": "^7.1.3-4",
+    "babel-loader": "^8.2.4",
+    "compression-webpack-plugin": "^9.0.0",
+    "shakapacker": "8.3.0",
+    "terser-webpack-plugin": "^5.3.1",
+    "turbolinks": "^5.2.0",
+    "webpack": "^5.76.0",
+    "webpack-assets-manifest": "^5.0.6",
+    "webpack-cli": "^4.9.2",
+    "webpack-merge": "^5.8.0"
   },
   "version": "0.1.0",
   "devDependencies": {
-    "webpack-dev-server": "^3.11.2"
-  }
+    "webpack-dev-server": "^4.9.0"
+  },
+  "engines": {
+    "node": "24.18.0",
+    "yarn": "1.22.22"
+  },
+  "packageManager": "yarn@1.22.22"
 }

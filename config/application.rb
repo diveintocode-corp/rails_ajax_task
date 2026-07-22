@@ -9,7 +9,7 @@ Bundler.require(*Rails.groups)
 module RailsAjaxTaskApp
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
-    config.load_defaults 6.0
+    config.load_defaults 8.1
     config.generators do |g|
       g.test_framework :rspec,
         fixtures: true,
