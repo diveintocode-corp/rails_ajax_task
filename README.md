@@ -1,6 +1,6 @@
 # Rails Ajax Task
 
-WEF／WEPの「Webエンジニア ステップアップコース（Ruby）」で使用する、
+「Webエンジニア ステップアップコース（Ruby）」で使用する、
 お気に入り機能のAjax化を学ぶためのRailsアプリケーションです。
 
 ## Requirements
